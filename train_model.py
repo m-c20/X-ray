@@ -11,7 +11,7 @@ train_dir = "dataset/train"
 normal_dir = os.path.join(train_dir, "n")
 oa_dir = os.path.join(train_dir, "oa")
 
-# Functions to display few images from folder
+# functions to display few images from folder
 
 def show_images(folder, num_images=3):
 
