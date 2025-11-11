@@ -4,7 +4,7 @@ import os, random, shutil
 # paths
 base_dir = "/home/mert/X-ray-ai/dataset"
 train_dir = os.path.join(base_dir, "train")
-val_dir = os.path(base_dir,"val")
+val_dir = os.path.join(base_dir,"val")
 
 # ensure validation folders exits
 os.makedirs(os.path.join(val_dir,"normal"), exists_ok = True)
@@ -25,7 +25,7 @@ for category in ["normal", "osteoarthritis"]:
 
     # move them to validation folder
     for img in images[:val_count]:
-        shutil.move(os.path.join(train_path, img), os.join.path(val_path, img))
+        shutil.move(os.path.join(train_path, img), os.path.join(val_path, img))
 
     print(f"moved {val_count} images to validation.")
 
