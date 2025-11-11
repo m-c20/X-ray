@@ -8,6 +8,8 @@ So far:
 - Image preprocessing and augmentation
 - Binary classification using CNN and ResNet50
 - Train/validation split with reproducibility
+
+
 Coming:
 - Evaluation metrics: accuracy, confusion matrix, ROC curve
 - Visualization of sample X-rays and training performance
